@@ -62,4 +62,5 @@ nxb-spvgen = { path = "crates/nxb-spvgen" }
 opt-level = 1
 
 [profile.release]
+lto = "fat"
 debug = "line-tables-only"
